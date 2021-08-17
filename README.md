@@ -3,4 +3,4 @@
 -- This is my littlelink bio
 
 
-Credits to [Little LInk](https://littlelink.io)
+Credits to [Little Link](https://littlelink.io)
