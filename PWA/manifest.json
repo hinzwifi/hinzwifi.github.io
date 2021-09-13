@@ -1,7 +1,7 @@
 {
     "name": "Chat PWA",
     "short_name": "CAPP",
-    "start_url": "/PWA?true",
+    "start_url": "/PWA/",
     "icons":[
         {
           "src": "icons/manifest-icon-192.png",
