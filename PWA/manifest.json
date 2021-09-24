@@ -26,14 +26,14 @@
         "short_name": "Feed",
         "description": "View your activity feed",
         "url": "/PWA/",
-        "icons": [{ "src": "/icons/manifest-icon-192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "icons/manifest-icon-192.png", "sizes": "192x192" }]
       },
       {
         "name": "Recent Comments",
         "short_name": "Comments",
         "description": "View recent comments",
         "url": "/PWA/",
-        "icons": [{ "src": "/icons/manifest-icon-192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "icons/manifest-icon-192.png", "sizes": "192x192" }]
       }
     ]
 
