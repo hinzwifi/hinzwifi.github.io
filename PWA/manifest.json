@@ -2,6 +2,14 @@
     "name": "Chat PWA",
     "short_name": "CAPP",
     "start_url": "/PWA/",
+    "shortcuts": [
+      {
+        "name": "Activity Feed",
+        "short_name": "Feed",
+        "description": "View your activity feed",
+        "url": "/feed?utm_source=homescreen",
+        "icons": [{ "src": "icons/manifest-icon-192.png", "sizes": "192x192" }]
+      },
     "icons":[
         {
           "src": "icons/manifest-icon-192.png",
