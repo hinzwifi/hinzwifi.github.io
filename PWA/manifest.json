@@ -26,14 +26,14 @@
         "short_name": "Feed",
         "description": "View your activity feed",
         "url": "/feed?utm_source=homescreen",
-        "icons": [{ "src": "/icons/feed.png", "sizes": "192x192" }]
+        "icons": [{ "src": "icons/manifest-icon-192.png", "sizes": "192x192" }]
       },
       {
         "name": "Recent Comments",
         "short_name": "Comments",
         "description": "View recent comments",
         "url": "/comments?utm_source=homescreen",
-        "icons": [{ "src": "/icons/comments.png", "sizes": "192x192" }]
+        "icons": [{ "src": "icons/manifest-icon-192.png", "sizes": "192x192" }]
       }
     ]
 
