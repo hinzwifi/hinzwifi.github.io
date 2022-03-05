@@ -1,8 +1,11 @@
 import React from "react";
-
+import Helmet from "react-helmet";
 function About() {
   return (
     <div className="  py-3 px-10   mt-10 mx-auto  flex flex-col gap-3  ">
+      <Helmet>
+        <title>hinzwifi's self</title>
+      </Helmet>
       <span className=" text-center text-6xl mb-10">About Me</span>
       <div className=" text-lg md:text-4xl text-justify">
         <div>

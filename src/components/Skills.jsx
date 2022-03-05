@@ -1,5 +1,6 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
+import Helmet from "react-helmet";
 import {
   DiBootstrap,
   DiCss3,
@@ -36,6 +37,9 @@ import {
 function Skills() {
   return (
     <>
+      <Helmet>
+        <title>hinzwifi's skills</title>
+      </Helmet>
       <div className="mt-10  text-center text-6xl">Tech Stacks</div>
       <div className=" mt-10 text-6xl   justify-center gap-2 flex flex-col sm:flex-row  flex-wrap ">
         <div

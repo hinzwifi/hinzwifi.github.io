@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Helmet from "react-helmet";
 import { RiStarSFill } from "react-icons/ri";
 import { BsArrowUpRightSquare } from "react-icons/bs";
 import { CgGitFork } from "react-icons/cg";
@@ -19,6 +20,9 @@ function Projects() {
 
   return (
     <>
+      <Helmet>
+        <title>hinzwifi's projects</title>
+      </Helmet>
       <div className=" text-center text-lg md:text-3xl  lg:text-6xl mt-10">
         Pinned Repositories
       </div>

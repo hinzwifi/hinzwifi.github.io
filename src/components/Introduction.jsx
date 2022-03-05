@@ -81,7 +81,8 @@ function Introduction() {
               githubProfile ? "md:w-6/12" : "md:w-full"
             } mt-2 relative`}
           >
-            <figure className="border-blue-300 bg-[#293845]  text-3xl md:min-h-[490px] flex flex-wrap justify-center items-center h-auto md:max-h-[490px] border-2 rounded-md p-5 ">
+            {/* md:min-h-[490px] md:max-h-[490px] */}
+            <figure className="border-blue-300 bg-[#293845]  text-3xl  flex flex-wrap justify-center items-center h-auto  border-2 rounded-md p-5 ">
               <blockquote className="before:content-['<elonmusk>'] my-4  before:font-mono after:font-mono    before:text-[#7BE1A5]  after:text-[#7BE1A5] after:content-['</elonmusk>']">
                 {rando ? (
                   <>

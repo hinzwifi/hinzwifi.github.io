@@ -1,11 +1,15 @@
 import React from "react";
 import { BsSpotify, BsDiscord, BsGithub } from "react-icons/bs";
+import Helmet from "react-helmet";
 import { FaSteam, FaReddit } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SiTelegram } from "react-icons/si";
 function Socials() {
   return (
     <div className="  py-3 px-10 text-6xl  mt-10 mx-auto max-w-md flex flex-col gap-3  ">
+      <Helmet>
+        <title>hinzwifi's socials</title>
+      </Helmet>
       <span className=" text-center mb-10">Socials</span>
       <a
         href="https://steamcommunity.com/id/hinzzz10/"
