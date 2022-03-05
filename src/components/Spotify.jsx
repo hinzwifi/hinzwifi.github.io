@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 function Spotify() {
-  const ClientId = "bf494a75807a428ab01ad4c680a5f7a2";
-  const ClientSecret = "9c545e1ed614461984bc7af28364ea50";
+  const ClientId = "";
+  const ClientSecret = "";
   const [Token, setToken] = useState(false);
   useEffect(() => {
     axios("https://accounts.spotify.com/api/token", {
