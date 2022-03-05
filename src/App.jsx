@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Footer from "./components/Footer";
 import Introduction from "./components/Introduction";
-import KEkw from "./components/KEkw";
+
 import Navbar from "./components/Navbar";
 import Spotify from "./components/Spotify";
 import Socials from "./components/Socials";

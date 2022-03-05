@@ -6,7 +6,7 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { GiSuitcase } from "react-icons/gi";
 import Projects from "./Projects";
 import { BsArrowUpRightSquare } from "react-icons/bs";
-import { Profiler } from "react/cjs/react.development";
+
 function Introduction() {
   const [githubProfile, setNoice] = useState(false);
   const [rando, setRando] = useState(false);
