@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#282A36] text-[#F8F8F2] max-w-4xl  md:mx-auto     mx-5;
+  text-rendering: optimizeLegibility;
+}
+
+div {
+  @apply text-[#F8F8F2];
+}
+
+button {
+  @apply hover:cursor-pointer    hover:rounded-md
+   rounded-lg bg-[#44475A] p-3 px-10 active:scale-[.88]   w-full hover:bg-opacity-50    duration-150 text-lg;
+}
+
+.navcomments {
+  @apply hover:cursor-pointer text-[#FF5555]  hover:bg-opacity-20 hover:text-white  
+    p-3     duration-300 dark:bg-[#383A59] bg-white text-lg;
+}
+.experimental {
+  @apply hover:underline  hover:cursor-pointer hover:text-[#8BE9FD] duration-300;
+}
+
+.burger {
+  @apply flex items-center mr-0 md:mx-5   scale-[2];
+}
+.burger-icon {
+  @apply hover:ring-1  ring-[#6272A4]  hover:cursor-pointer p-[0.125rem] duration-300 rounded-md;
+}
+
+abbr {
+  @apply hover:cursor-pointer;
+}
+.emojiwave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.socials {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.socials:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.socials::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(to left, #7be1a5, #94c5fd 100%);
+  transition: width 0.5s ease 0s, right 0.5s ease 0s;
+  width: 0;
+}
+
+body {
+  font-family: cursive;
+}
+
+.navname {
+  @apply inline-block   duration-300;
+  box-shadow: inset 0 -10px 0 rgba(123, 225, 165, 1),
+    0 3px 0 rgba(123, 225, 165, 0.5);
+  transition: box-shadow 0.3s;
+  color: inherit;
+  overflow: hidden;
+}
+
+/* .navname:hover {
+  box-shadow: inset 0 -60px 0 rgba(123, 225, 165, 1),
+    0 2px 0 rgba(123, 225, 165, 0.5);
+} */
+
+.steam {
+  @apply text-white bg-[#171a21];
+}
+.discord {
+  @apply bg-[#5865F2];
+}
+.spotify {
+  @apply bg-black text-green-400;
+}
+.reddit {
+  @apply text-white  bg-orange-600;
+}
+.github {
+  @apply bg-black text-white;
+}
+.email {
+  @apply bg-[#253163];
+}
+.telegram {
+  @apply bg-[#3faee8];
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #202b38;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #293845;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #293845;
+  cursor: pointer;
+}
+
+.menuicons {
+  @apply w-5 h-5 text-white mr-[0.4rem];
+}
+.menuiconsA {
+  @apply w-5 h-5 text-blue-300 mr-[0.4rem];
+}
