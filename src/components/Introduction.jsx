@@ -47,7 +47,7 @@ function Introduction() {
             className=" socials hover:cursor-pointer duration-300 "
           >
             {" "}
-            🇵🇭 Philippines
+            Philippines
           </span>
           . I honor the{" "}
           <span className="  bg-gradient-to-r text-transparent bg-clip-text from-blue-300 to-[#7BE1A5] ">
